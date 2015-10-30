@@ -7,7 +7,7 @@ namespace HelperBot
 {
     class BotInfo
     {
-        public static string VersionString = "HelperBot v2.0.0.3";
+        public static string VersionString = "HelperBot v2.0.1.0";
         public static string Creator = "timothyji";
     }
 }
