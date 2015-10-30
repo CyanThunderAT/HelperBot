@@ -36,6 +36,9 @@ namespace HelperBot
                     UsableAdminCmds.SetItemChecked(index.Value, true);
                 }
             LoadUsableCommands();
+
+            label7.Text = "Created By: " + BotInfo.Creator;
+            label8.Text = "Version: " + BotInfo.VersionString;
         }
 
         #region AdminList
